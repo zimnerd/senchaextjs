@@ -1,0 +1,82 @@
+{
+    "data": [
+            {
+                "vehicleId": "V001",
+                "vehicleType": "Truck",
+                "model": "Ford F-150",
+                "year": 2019,
+                "licensePlate": "ABC1234",
+                "driver": {
+                    "driverId": "D001",
+                    "name": "John Doe",
+                    "licenseNumber": "D123456789"
+                },
+                "maintenanceRecords": [
+                    {
+                        "recordId": "M001",
+                        "date": "2023-01-15",
+                        "description": "Oil change",
+                        "cost": 50.00
+                    },
+                    {
+                        "recordId": "M002",
+                        "date": "2023-03-10",
+                        "description": "Tire replacement",
+                        "cost": 400.00
+                    }
+                ]
+            },
+            {
+                "vehicleId": "V002",
+                "vehicleType": "Van",
+                "model": "Mercedes-Benz Sprinter",
+                "year": 2021,
+                "licensePlate": "XYZ5678",
+                "driver": {
+                    "driverId": "D002",
+                    "name": "Jane Smith",
+                    "licenseNumber": "D987654321"
+                },
+                "maintenanceRecords": [
+                    {
+                        "recordId": "M003",
+                        "date": "2023-02-20",
+                        "description": "Brake inspection",
+                        "cost": 150.00
+                    },
+                    {
+                        "recordId": "M004",
+                        "date": "2023-04-05",
+                        "description": "Engine tune-up",
+                        "cost": 250.00
+                    }
+                ]
+            },
+            {
+                "vehicleId": "V003",
+                "vehicleType": "SUV",
+                "model": "Toyota Highlander",
+                "year": 2020,
+                "licensePlate": "LMN3456",
+                "driver": {
+                    "driverId": "D003",
+                    "name": "Mike Johnson",
+                    "licenseNumber": "D456789123"
+                },
+                "maintenanceRecords": [
+                    {
+                        "recordId": "M005",
+                        "date": "2023-03-25",
+                        "description": "Battery replacement",
+                        "cost": 200.00
+                    },
+                    {
+                        "recordId": "M006",
+                        "date": "2023-05-15",
+                        "description": "Air filter change",
+                        "cost": 30.00
+                    }
+                ]
+            }
+        ]
+}
